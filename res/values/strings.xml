@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, BusDB_2Activity!</string>
+    <string name="app_name">BusDB</string>
+    <string-array name="buslist">
+        <item>Travego 15</item>
+        <item>Travego 17</item>
+        <item>Setra 417</item>
+        <item>Setra 416</item>
+        <item>Setra 415</item>
+        <item>Starliner</item>
+        <item>Cityliner</item>
+        <item>Tourliner 15</item>
+        <item>Tourliner 17</item>
+        <item>Tourismo 15</item>
+        <item>Tourismo 17</item>
+        <item>Fortuna</item>
+        <item>Fortuna Mega</item>
+        
+    </string-array>
+    <string-array name="companylist">
+        <item>Kamil Koç</item>
+        <item>Pamukkale</item>
+        <item>Nilüfer</item>
+        <item>Varan</item>
+        <item>Ulusoy</item>
+    </string-array>
+</resources>

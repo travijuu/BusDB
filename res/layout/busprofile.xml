@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+    <LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout2" android:orientation="horizontal" android:layout_width="match_parent" android:layout_marginTop="5px">
+        <LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout1" android:layout_weight="1" android:orientation="horizontal" android:layout_width="match_parent">
+            <ImageView android:id="@+id/imageView1" android:src="@drawable/pamukkale" android:layout_width="200px" android:layout_height="200px"></ImageView>
+            <LinearLayout android:layout_height="wrap_content" android:orientation="vertical" android:id="@+id/linearLayout3" android:layout_width="wrap_content" android:layout_weight="1">
+                <LinearLayout android:layout_height="wrap_content" android:orientation="horizontal" android:id="@+id/linearLayout5" android:layout_width="match_parent">
+                    <Spinner android:id="@+id/spinner1" android:layout_height="wrap_content" android:layout_width="match_parent"></Spinner>
+                </LinearLayout>
+                <LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout6" android:orientation="horizontal" android:layout_width="match_parent">
+                    <EditText android:layout_height="wrap_content" android:inputType="textPersonName" android:layout_width="match_parent" android:id="@+id/editText1"></EditText>
+                </LinearLayout>
+                <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/linearLayout4">
+                    <Spinner android:id="@+id/spinner2" android:layout_height="wrap_content" android:layout_width="match_parent"></Spinner>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/linearLayout11" android:layout_height="wrap_content" android:layout_width="match_parent">
+        <Button android:id="@+id/button1" android:layout_height="wrap_content" android:layout_width="200px" android:text="Düzelt"></Button>
+        <Button android:id="@+id/button4" android:layout_gravity="right" android:text="Sil" android:layout_height="wrap_content" android:layout_width="wrap_content" android:onClick="deleteBus"></Button>
+        <TextView android:id="@+id/textView1" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_height="wrap_content" android:layout_width="match_parent" android:text="Durum:"></TextView>
+        <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/linearLayout7" android:orientation="vertical">
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/linearLayout8" android:layout_width="match_parent" android:layout_height="250px"></LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/linearLayout9" android:layout_width="match_parent" android:layout_height="120px">
+        <EditText android:inputType="textMultiLine" android:id="@+id/editText2" android:layout_width="match_parent" android:layout_height="match_parent">
+            <requestFocus></requestFocus>
+        </EditText>
+    </LinearLayout>
+    <LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout10" android:layout_width="match_parent" android:orientation="horizontal">
+        <Button android:id="@+id/button2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Kaydet"></Button>
+        <Button android:id="@+id/button3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Temizle"></Button>
+    </LinearLayout>
+ 
+</LinearLayout>

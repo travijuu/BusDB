@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/item1" android:checkable="true" android:title="Yeni Ekle" android:enabled="true" android:visible="true" android:icon="@drawable/icon"></item>
+    <item android:id="@+id/item2" android:title="Listele">
+        <menu android:id="@+id/submenu1">
+            <item android:id="@+id/item4" android:title="Kamil Koç"></item>
+          	<item android:id="@+id/item5" android:title="Pamukkale"></item>
+          	<item android:id="@+id/item6" android:title="Nilüfer"></item>
+          	<item android:id="@+id/item7" android:title="Varan"></item>
+          	<item android:id="@+id/item8" android:title="Ulusoy"></item>
+        </menu>
+    </item>
+    <item android:id="@+id/localdb" android:title="Database"></item>
+    <item android:id="@+id/update" android:title="Güncelle"></item>
+
+ 
+    
+</menu>
